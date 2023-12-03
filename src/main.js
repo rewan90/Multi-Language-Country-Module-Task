@@ -2,9 +2,11 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { createI18n } from 'vue-i18n'
 import En from './locale/en.json'
-import Ar from './locale/Ar.json'
+import Ar from './locale/ar.json'
 
 import App from './App.vue'
 import router from './router'

@@ -18,7 +18,7 @@ const routes = [
     component: AddCountry
   },
    {
-    path: '/edit/:CountryId',
+    path: '/view/EditCountry/:CountryId',
     name: 'EditCountry',
     component: EditCountry
   },
